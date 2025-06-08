@@ -1,0 +1,27 @@
+#logical operators = evaluate multiple conditions (or, and, not)
+# Or one condition must be true
+# And both conditions must be true
+# Not = inverts the condition (not false, not true)
+
+#
+temp = 25
+is_sunny = True
+is_rainy = False
+
+
+if temp >= 37 and is_sunny:
+    print ("It is hot outside")
+    print ("it is sunny")
+elif temp > 10 and is_rainy:
+    print ("it is raining outside")
+    print ("it is storming outside")
+elif temp < 20 and is_rainy:
+    print ("it is raining outside")
+    print ("it is cold outside")
+elif 28 > temp > 0 and is_sunny:
+    print  ("it is warm outside")
+    print ("it is sunny")
+
+
+
+    
